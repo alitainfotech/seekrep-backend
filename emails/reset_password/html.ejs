@@ -1,0 +1,210 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Confirm email</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <style type="text/css">
+        .container {
+            width: 100%;
+            max-width: 1140px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .email-page h3, .email-page img {
+            margin-bottom: 40px;
+            font-size: 60px;
+            color: #7dcada;
+            font-weight: 400;
+            line-height: 52px;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            margin-top: 0;
+        }
+
+        .email-box {
+            background-color: #f4f4f4;
+            padding: 100px 0;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .email-txt h2 {
+            margin: 60px 0 30px;
+            font-size: 54px;
+            color: #333333;
+            font-weight: 500;
+            line-height: 64px;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .email-txt p {
+            font-size: 30px;
+            color: #333333;
+            font-weight: 400;
+            line-height: 36px;
+            font-family: 'Raleway', sans-serif;
+            max-width: 100%;
+            width: 500px;
+            margin: 0 auto 30px;
+        }
+
+        .email-btn {
+            padding: 10px 70px;
+            border: 5px solid #7dcada;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            align-items: center;
+        }
+
+        .email-btn a {
+            font-size: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            text-decoration: none;
+            line-height: 46px;
+            color: #7dcada;
+        }
+
+        .email-img {
+            margin: 100px 0;
+        }
+
+        .email-footer h4 {
+            margin-bottom: 40px;
+            font-size: 44px;
+            color: #7dcada;
+            font-weight: 400;
+            line-height: 40px;
+            font-family: 'Raleway', sans-serif;
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+
+        .email-footer p {
+            margin: 0;
+            font-size: 28px;
+            color: #333333;
+            font-weight: 500;
+            line-height: 40px;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .email-icon ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .email-icon li {
+            display: inline-block;
+        }
+
+        .email-icon li img {
+            max-width: 100%;
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .email-logo img {
+            max-width: 100%;
+            width: 20%;
+        }
+
+        .email-page {
+            margin: 90px 0;
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+     <table style="margin:0; padding:0; background:#F8F9FD; border:0; width:100%; border-spacing:0;">
+        <tr>
+            <td style="text-align:center; border-spacing:0;">
+                <table style="margin:0 auto; padding:0; background:#F8F9FD; border:0; width:100%; border-spacing:0;">
+                    <tr>
+                        <td style="text-align:center;">
+                            <a href="" style="display:block;">
+                                <img style="display: block" src="https://seekrep-backend.herokuapp.com/images/SEEKREP_logo.png" width="100" height="30"
+                                    alt="" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table
+                                style="margin:0; padding:5%; background:#fff; border:0; width:100%; border-spacing: 0;">
+                                <!-- <tr>
+                                    <td style="display: block; text-align:center;">
+                                        <div style="display: block; text-align:center;">
+                                            <img style="display: block" src="http://192.168.100.93:3000/images/SEEKREP_logo.png" width="100" height="30"
+                                    alt="" /> 
+                                        </div>  
+                                    </td>
+                                </tr> -->
+                                <!-- <tr>
+                                    <td
+                                        style="padding:0 0 16px; text-align:center; font-size:40px; color:#323B61; line-height:50px; font-family:'Open Sans'; font-weight:300;">
+                                        SEEKREP</td>
+                                </tr> -->
+                                <tr>
+                                    <td
+                                        style="padding:0 0 20px; text-align:center; font-size:15px; color:#000; line-height:22px; font-family:'Open Sans'; font-weight:400;">
+                                       To reset your password please click below.</td>
+                                <tr>
+                                    <td style="padding:10px 15% 20px; text-align:center;">
+                                        <a href="<%= reset_link %>"
+                                            style="background:#000000; padding:10px; width:232px;line-height:20px; font-size:11px; color:#fff;  letter-spacing:0.05em; text-decoration:none; border-radius:10px; font-weight:700; text-transform:uppercase; font-family:'open Sans'; display:block; margin:0 auto; ">
+                                            Reset Password
+                                        </a>
+                                    </td>
+                                </tr>
+                    </tr>
+                    <!-- <tr>
+                        <td style="padding:0; border:0; vertical-align:top; background:#f0f8fe;">
+                            <img src="dummy-img.jpg" alt="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:center; padding:64px 0 58px;">
+                            <a href=""
+                                style="background:#839269; padding:10px; width:232px;line-height:20px; font-size:11px; color:#fff;  letter-spacing:0.05em; text-decoration:none; border-radius:10px; font-weight:700; text-transform:uppercase; font-family:'open Sans'; display:block; margin:0 auto; ">
+                            </a>
+                        </td>
+                    </tr> -->
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style="background:#F5F5F5;  vertical-align:top; padding:0;">
+                <table
+                    style="margin:0 auto; padding:32px 0 23px; background:#F8F9FD; border:0; width:100%; border-spacing:0;">
+
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+</body>
+
+</html>
